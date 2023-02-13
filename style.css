@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+	padding: 0;
+    list-style: none;
+	box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body{
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Encode Sans', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    padding: 80px 200px;
+}
+
+h1{
+    display: inline;
+    font-family: 'comic neue', sans-serif;
+    font-size: 60px;
+    font-style: italic;
+}
+
+nav a{
+    
+}
+
+.btn{
+    font-weight: bold;
+    font-size: 1.4em;
+    text-decoration: none;
+    background-color: #1d7bd3;
+    color: #ffffff;
+    padding: 5px 25px 5px 25px;
+    position: relative;
+    border: 2px solid #000000;
+}
+
+.btn:active, 
+.btn.select {
+    background-color: rgb(58, 172, 68);
+}
+
+nav{
+    float: right;
+    padding-right: 20px;
+    padding-top: 45px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'comic neue', sans-serif;
+}
+
+a{
+    padding-left: 20px;
+}
+
+.imgheader{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.logo{
+    width: 200px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+h2{
+    font-family: 'comic neue', cursive;
+    font-size: 40px;
+    font-weight: 700 bold;
+    text-align: center;
+    border: 2px solid #000000;
+}
+
+section{
+    display: inline-block;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+h3{
+    font-family: 'comic neue', sans-serif;
+    font-size: 30px;
+    font-style: bold;
+}
+
+p{
+    font-family: 'comic neue', sans-serif;
+    font-size: 25px;
+    font-style: bold;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+
+.about{
+    width: 80%;
+}
