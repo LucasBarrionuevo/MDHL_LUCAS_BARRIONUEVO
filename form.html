@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <nav>
+        <a class="btn select" href="index.html">Home</a>
+        <a class="btn" href="about.html">About</a>
+        <a class="btn" href="rules.html">Rules</a>
+        <a class="btn" href="gameinf.html">Game Information</a>
+        <a class="btn" href="contact.html">Contact</a>
+        <a class="btn" href="form.html">Form</a>
+    </nav>
+
+    <h1>Registration Form</h1>
+    <form action="./show_data.html">
+
+        <div class="formulario">
+            <fieldset>
+
+                <label for="apenom">Player's First Name:</label>
+                <input required name="nombre" type="text" id="apenom"><br>
+    
+                <label for="apenom">Last Name:</label>
+                <input required name="nombre" type="text" id="apenom"><br>
+                <label>
+    
+                <label>
+                    Street Address:
+                    <input required name="direccion" type="text">
+                </label><br>
+                
+                <label>
+                    City:
+                    <input required type="text">
+                </label><br>
+    
+                <label>
+                    Zip Code:
+                    <input required type="number">
+                </label><br>
+    
+                <label>
+                    Birth date:
+                    <input type="date">
+                </label><br>
+    
+                <label>
+                    Gender: 
+                    <select id="gender" name="gender">
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>
+                    </select>
+                </label><br>
+    
+                <label>
+                    Grade:
+                    <select id="grade" name="grade">
+                        <option value="PS">Pre-School</option>
+                        <option value="1">1st</option>
+                        <option value="2">2nd</option>
+                        <option value="3">3rd</option>
+                        <option value="4">4th</option>
+                        <option value="5">5th</option>
+                    </select>
+                </label>
+            </fieldset>
+    
+            <fieldset> 
+                <h3>Which elementary school do you live near?</h3>
+                <h4>Closest School:</h4>
+                <select name="school" id="">
+                    <option value="Aj">AJ Katzenmaier</option>
+                    <option value="Gree">Greenbay</option>
+                    <option value="HOW">Howard A Yeager</option>
+                    <option value="Mar">Marjorie P Hart</option>
+                    <option value="Nort">North Elementary</option>
+                    <option value="South">South Elementary</option>
+                </select>
+            </fieldset>
+    
+            <fieldset>
+                    <h3>What position(s) do you normally play? (check all that apply)</h3>
+                    <label>
+                        <input type="checkbox" name="pos1" value="fw">
+                        Foward
+                    </label>
+                    <label>
+                        <input type="checkbox" name="pos2" value="def">
+                        Defense
+                    </label>
+                    <label>
+                        <input type="checkbox" name="pos3" value="mid">
+                        Midfield
+                    </label>
+                    <label>
+                        <input type="checkbox" name="pos4" value="gkp">
+                        Goalkeeper
+                    </label>
+            </fieldset>
+    
+            <fieldset> 
+                <h3>Uniform Size:</h3>
+                <select name="size" id="">
+                    <option value="ys">Youth Small</option>
+                    <option value="ym">Youth Medium</option>
+                    <option value="yl">Youth Large</option>
+                    <option value="s">Small</option>
+                    <option value="m">Medium</option>
+                    <option value="l">Large</option>
+                    <option value="exl">Extra-Large</option>
+                </select>
+            </fieldset>
+            
+            <fieldset>
+                <h3>Permission to Play</h3>
+                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
+                    rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
+                    associated with hockey and in consideration for the “League” accepting the registrant for its
+                    hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL,
+                    their employees and associated personnel and volunteers,including the facilities used for
+                    practices and games, against any claim by or on behalf of the registrant as a result of the
+                    registrant's participation in the programand/orbeing transported to or from MDHL sponsored
+                    activities, which transportation
+                    By signing below, I herebyagree andauthorizethe above. In addition, by signing below, lalso
+                    acknowledge that I have read the cancellation policy and agree to its terms.</p>
+    
+                <p>
+                    Parent/GuardianSignature:___________________________ <br>
+                    Date:___________________________
+                </p>
+            </fieldset>
+    
+
+        </div>
+        
+        <br>
+        <input class="button" type="submit">
+    </form>
+</body>
+</html>
